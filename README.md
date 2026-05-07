@@ -1,7 +1,16 @@
-#Algoritmo e Logica aplicada nas Linguagens C, C++, C# , Java e Python 
+# Algoritmos & Lógica de Programação
 
-##Estudo voltado para resolver problema de vários níveis com diferentes linguagens de programação
+Curso Udemy - Professor Nélio Alves
 
-###Foram tratados cases envolvendo os paradgmas de progamação fundamentais da lógica de programação. 
+## 📚 Linguagens implementadas
 
+| Linguagem | Status | Pasta |
+|-----------|--------|-------|
+| C | ✅ Completo | `/C` |
+| C# | ✅ Em andamento | `/C#` |
+| C++ | ✅ Em andamento | `/C++` |
+| Java | ✅ Em andamento | `/Java` |
+| Python | 🚧 Em breve | `/Python` |
+
+## 📁 Estrutura do projeto
 
