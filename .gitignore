@@ -1,26 +1,32 @@
-# VS Code
+# IDEs e Editores
 .vscode/
-*.code-workspace
-
-# IntelliJ IDEA / JetBrains
 .idea/
-*.iml
-*.ipr
-*.iws
-
-# Eclipse
+*.sublime-*
+.vs/
 .metadata/
-bin/
 .settings/
 .classpath
 .project
 
-# Arquivos compilados/executáveis
+# Arquivos compilados
 *.exe
 *.out
 *.app
 *.o
 *.obj
+*.class
+*.dll
+*.so
+*.dylib
+
+# Diretórios de build
+bin/
+obj/
+build/
+Debug/
+Release/
+__pycache__/
+*.pyc
 
 # Arquivos temporários
 *.log
@@ -29,18 +35,12 @@ bin/
 *.cache
 *.lock
 *~
-tempCodeRunnerFile*
-
-# Pastas de binários
-**/bin/
-**/obj/
-
-# macOS
-.DS_Store
-
-# Linux
 *.swp
 *.swo
-
-# Windows
+.DS_Store
 Thumbs.db
+tempCodeRunnerFile*
+
+# Arquivos de dependências
+node_modules/
+packages/
