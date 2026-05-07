@@ -1,0 +1,46 @@
+# IDEs e Editores
+.vscode/
+.idea/
+*.sublime-*
+.vs/
+.metadata/
+.settings/
+.classpath
+.project
+
+# Arquivos compilados
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.class
+*.dll
+*.so
+*.dylib
+
+# Diretórios de build
+bin/
+obj/
+build/
+Debug/
+Release/
+__pycache__/
+*.pyc
+
+# Arquivos temporários
+*.log
+*.tmp
+*.temp
+*.cache
+*.lock
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+tempCodeRunnerFile*
+
+# Arquivos de dependências
+node_modules/
+packages/
