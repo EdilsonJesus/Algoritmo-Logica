@@ -1,0 +1,16 @@
+# Ignorar a pasta C completamente da análise de linguagens
+C/ linguist-vendored
+
+# Se quiser que o GitHub mostre um mix mais equilibrado:
+# (opcional) Marcar C como linguagem secundária
+C/*.c linguist-language=C
+
+# Garantir que as outras linguagens sejam detectadas
+C#/*.cs linguist-language=C#
+Java/*.java linguist-language=Java
+C++/*.cpp linguist-language=C++
+C++/*.h linguist-language=C++
+
+# Arquivos de configuração não devem contar
+.gitignore linguist-vendored
+*.md linguist-documentation
