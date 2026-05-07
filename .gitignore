@@ -1,4 +1,46 @@
-# IDEs
+# VS Code
 .vscode/
+*.code-workspace
+
+# IntelliJ IDEA / JetBrains
 .idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
 .metadata/
+bin/
+.settings/
+.classpath
+.project
+
+# Arquivos compilados/executáveis
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# Arquivos temporários
+*.log
+*.tmp
+*.temp
+*.cache
+*.lock
+*~
+tempCodeRunnerFile*
+
+# Pastas de binários
+**/bin/
+**/obj/
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
